@@ -1,6 +1,6 @@
 import { initState } from './state'
 
-import { CompileToFunction } f
+import { CompileToFunction } from './compiler/index.js'
 // 在原型上添加一个init方法
 
 export function initMixin (Vue) {
